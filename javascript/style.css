@@ -1,10 +1,9 @@
 body {
-    background-color: #ebe7e0;
-    font: 13pt Arial;
+    background-image:url(Imagens/Fundo\ java.jpeg) ;
 }
 
 main {
-    background-color: white;
+    background-color: rgb(130, 0, 130, 0.5);
     width: 800px;
     padding: 20px;
     margin: auto;
