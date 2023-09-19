@@ -1,18 +1,19 @@
 body {
-    background-image:url(Imagens/Fundo\ java.jpeg) ;
+    background-image:url() ;
 }
 
 main {
-    background-color: rgb(130, 0, 130, 0.5);
+    background-color: rgb(1, 150, 1);
     width: 800px;
     padding: 20px;
     margin: auto;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.529);
+    margin-top: 220px;
 }
 
 h1 {
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 .titulo-2{
@@ -20,14 +21,20 @@ h1 {
 }
 
 h2 {
-    color: darkgoldenrod;
+    color: white;
+}
+
+h2:hover{
+    color: white;
+    background-color: rgb(6, 21, 238);
+    border-radius: 10px;
 }
 
 aside {
     display: block; 
     font-size: 10pt;
     text-align: justify;
-    background-color: #44749d;
+    background-color: rgb(6, 21, 238);
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -41,11 +48,15 @@ aside img {
 }
 
 a, a:visited {
-    color: rgb(34, 34, 34);
+    color: white;
     font-weight: bolder;
 }
 
 a:hover {
     color: darkgoldenrod;
     text-decoration: none;
+}
+
+li{
+    color: white;
 }
