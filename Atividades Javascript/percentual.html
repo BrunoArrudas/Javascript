@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script>
+        let valor_aluno = prompt('Aluno:','');
+        let valor_presenca = prompt('Percentual de presenças','');
+        let valor_nota = prompt('Nota do aluno','');
+
+        if(valor_presenca >= 75 && + valor_nota >= 7.5){
+            document.write('<b> Aluno: </b>' + valor_aluno);
+            document.write('<br><b> Presença: </b>' + valor_presenca + '%');
+            document.write('<br><b> Nota: </b>' + valor_nota);
+            document.write('<br><b>Situaçao:</b> Aprovado');
+        }else{
+            document.write('<b> Aluno: </b>' + valor_aluno);
+            document.write('<br><b> Presença: </b>' + valor_presenca + '%');
+            document.write('<br><b> Nota: </b>' + valor_nota);
+            document.write('<br><b>Situaçao:</b> Reprovado');
+        }
+
+    
+
+    </script>
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
