@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Verificação de idade e autorização</title>
+
+
+    <script>
+
+    let valor_idade = prompt('Qual sua idade?','');
+    let valor_aprovacao = prompt ('Voce tem autorizaçao dos pais? (sim ou não)','');
+    
+    if (valor_idade >= 18 && valor_aprovacao === 'sim'){
+        document.write('Idade:'+ valor_idade);
+        document.write('<br><font color=blue>Pode entrar</font>');
+    }else{
+        document.write('Idade:'+ valor_idade);
+        document.write('<br><font color=red><font size= 5px>Nao</font> pode entrar</font>');
+    }
+
+    </script>
+
+
+</head>
+<body>
+    
+</body>
+</html>
