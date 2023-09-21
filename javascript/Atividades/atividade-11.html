@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Ternario - Desenvolvimento de programa </title>
+
+
+    <script>
+     
+     // Enunciado. Crie um programa que informe se o agente foi aprovado no treinamento de reciclagem, entre presença e nota, e preciso que o agente atinja 80% em pelo menos uma das duas, caso contrario, o agente sera reprovado. (As informaçoes do programa devem ser preenchidas pelo analista de treinamento)
+
+     let valor_treinamento = prompt('Qual o treinamento em questao:','');
+     let valor_presenca = prompt ('Presença do agente:', '');
+     let valor_nota = prompt('Nota do agente','');
+      
+     let statuspresencanota = (valor_presenca >= 80 || valor_nota >= 80)? 'Aprovado':'Reprovado';
+      
+     document.write('Treinamento: '+ valor_treinamento);
+     document.write('<br> Status do Aluno:'+ statuspresencanota);
+
+    </script>
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    
+</body>
+</html>

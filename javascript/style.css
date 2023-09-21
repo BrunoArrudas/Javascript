@@ -1,9 +1,9 @@
 body {
-    background-image:url() ;
+    background-image:url(Atividades/Imagens/javascript.jpg) ;
 }
 
 main {
-    background-color: rgb(1, 150, 1);
+    background-color: yellowgreen;
     width: 800px;
     padding: 20px;
     margin: auto;
