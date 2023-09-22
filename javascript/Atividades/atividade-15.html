@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Triangulo</title>
+
+    <script>
+
+    let valor_triprime = prompt ('Digite o valor do primeiro lado do triangulo: (Escolha de 0 a 10)','');
+    let valor_trisegun = prompt ('Digite o valor do segundo lado do triangulo: (Escolha de 0 a 10) ','');
+    let valor_triterce = prompt ('Digite o valor do terceiro lado do triangulo: (Escolha de 0 a 10)','');
+
+    
+    if(valor_triprime === valor_trisegun  &&  valor_trisegun === valor_triterce && valor_triterce === valor_triprime ) {
+
+        document.write('<br> Lado 1:'+ valor_triprime)
+        document.write('<br> Lado 2:'+ valor_trisegun)
+        document.write('<br> Lado 3:'+ valor_triterce)
+        document.write('<br> Os Lados do triangulo tem valores iguais, é um triangulo equilatero')
+
+    } else if(valor_triprime === valor_trisegun  ||  valor_trisegun === valor_triterce || valor_triterce === valor_triprime ){ 
+
+        document.write('<br> Lado 1:'+ valor_triprime)
+        document.write('<br> Lado 2:'+ valor_trisegun)
+        document.write('<br> Lado 3:'+ valor_triterce)
+        document.write('<br> Os Lados do triangulo tem dois lados iguais, é um triangulo isosceles')
+
+    } else (valor_triprime != valor_trisegun != valor_triterce != valor_triprime){ 
+
+        document.write('<br> Lado 1:'+ valor_triprime)
+        document.write('<br> Lado 2:'+ valor_trisegun)
+        document.write('<br> Lado 3:'+ valor_triterce)
+        document.write('<br> Os Lados do triangulo tem valores diferentes, é um triangulo escaleno')
+    }
+
+    
+
+
+
+
+    </script>
+    
+</head>
+<body>
+    
+</body>
+</html>
