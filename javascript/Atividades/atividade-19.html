@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Quiz em Javascript </title>
+
+    <script>
+
+    alert("Seja bem-vindo")
+    let p1 = prompt("Qual é o maior jogador do mundo? \nAlternativas  \n 1 - Messi \n 2 - Cristiano \n 3 - Neymar \n 4 - Renato Augusto" );
+    let p2 = prompt ("Qual é o pior time do Brasileirao? \nAlternativas  \n 1 - Santos \n 2 - Bahia \n 3 - Vasco \n  4 - America MG ");
+    let p3 = prompt ("Quem ganhou a copa em 2002? \nAlternativas  \n 1 - Japão \n 2 - China \n 3 - Holanda \n  4 - Brasil ");
+    let p4 = prompt ("Qual time é mais ajudado pela arbitragem ? \nAlternativas  \n 1 - São Paulo \n 2 - Cuiaba \n 3 - Flamengo \n  4 - Palmeiras ");
+    
+
+    document.write("<font color=blue>RESULTADO</font>")
+//------------------------1
+    let statusp1 = (p1 == 2) ? 1 : 0; 
+
+    document.write('<br><br>Pergunta 1 <br>Qual é o maior jogador do mundo? <br> Alternativa correta:<font color=blue> 2 </font>' + '<br> Sua reposta:' + p1 + '<br>');
+    document.write("<hr>")
+//------------------------2
+    let statusp2 = (p2 == 1) ? 1 : 0; 
+
+    document.write('Pergunta 2 <br>Qual é o pior time do Brasileirao ? <br> Alternativa correta:<font color=blue> 1 </font>' + '<br> Sua reposta:' + p2 + '<br>');
+    document.write("<hr>")
+//-------------------------3
+    let statusp3 = (p3 == 4) ? 1 : 0; 
+
+    document.write('Pergunta 3 <br>Quem ganhou a copa em 2002? <br> Alternativa correta:<font color=blue> 4 </font>' + '<br> Sua reposta:' + p3 + '<br>');
+    document.write("<hr>")
+//------------------------4
+    let statusp4 = (p4 == 3) ? 1 : 0; 
+
+    document.write('Pergunta 4 <br>Qual time é mais ajudado pela arbitragem ? <br> Alternativa correta:<font color=blue> 3</font>' + '<br> Sua reposta:' + p4 + '<br>');
+    document.write("<hr>")
+
+    let soma = parseInt(statusp1+statusp2+statusp3+statusp4)
+    document.write("<br>Pontos: "+ soma)
+
+    </script>
+
+
+</head>
+<body>
+    
+</body>
+</html>
