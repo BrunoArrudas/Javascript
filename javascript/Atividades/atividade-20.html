@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+
+
+    <script>
+
+        function calcularSalario(valorSalarioA,imposto,valorbonificação){
+
+            return valorSalarioA - imposto;
+            return resultadosoma + valorbonificação;
+
+            let valorSalarioA =    prompt('Digite o valor de seu salario: (exemplo: 1320)');
+            let imposto =          prompt('Digite o valor do imposto atual:' );
+            let valorbonificação = prompt( 'Digite o valor recebido de bonificação no mes atual:' );
+            let valorSalarioB =    prompt('Digite o valor de seu salario pretendido para o proximo ano: ');
+
+
+            let resultadosoma = calcularSalario(valorSalarioA,imposto);
+            let resultadosoma2 = calcularSalario(resultadosoma,valorbonificação);
+
+        }            
+
+        
+
+        document.write('Salario mensal - imposto: '+ resultadosoma + '<br>');
+        document.write('Salario com imposto descontado + bonificação: '+ resultadosoma2);
+
+
+//----- Funçao para calcular desconto do imposto no salario. --------------------------------------------------------------------------------------------------------------------------
+
+
+      
+
+
+
+
+
+    </script>
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
