@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Experiencia interativa com Funçoes de Callback em Javascript</title>
+</head>
+<body>
+     
+    <h1> Funçoes de Callback em Javascript <h1>
+
+    <button id="AFV" onclick="fundored()">Alterar o fundo para vermelho</button>
+    <button id="AFB" onclick="fundowhite()">Alterar o fundo para branco</button>
+    <button id="MSA" onclick="mensalert()">Mensagem no alert</button>
+    <button id="MNP" onclick="mensapagi()">Mensagem na pagina</button>
+
+    <script>
+
+        function fundored(vermelho){
+            document.bgColor ='red';
+        }
+
+        function fundowhite(branco){
+            document.bgColor ='white';
+        }
+
+        function mensalert(){
+            alert('Que aula Show \n O Cristiano é demais.');
+        }
+
+        function mensapagi(){
+            document.write('<h1> Adoro Javascript <h1>');
+        }
+
+
+        
+    </script>
+    
+</body>
+</html>
