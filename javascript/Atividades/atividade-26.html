@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Calculadora Simples</title>
+
+    <script>
+
+    let valor_operacao = prompt('Digite qual operação deseja realizar (Digite o codigo da operação abaixo): \n + Soma \n -  Subtração  \n *  Multiplicação \n /  Divisão','');
+    let valor_primeiro = parseInt(prompt('Digite o primeiro valor para calculo',''));
+    let valor_segundo  = parseInt(prompt('Digite o segundo valor para calculo',''));
+
+    
+    if(valor_operacao == '+'){
+        document.write('Primeiro valor: '+ valor_primeiro + '<br>');
+        document.write('Segundo valor: '+ valor_segundo + '<br>');
+        document.write('Operação escolhida: Soma'+ '<br>');
+        document.write('Resultado: ');
+        document.write(valor_primeiro + valor_segundo);
+    }
+    
+    if(valor_operacao == '-'){
+        document.write('Primeiro valor: '+ valor_primeiro + '<br>');
+        document.write('Segundo valor: '+ valor_segundo + '<br>');
+        document.write('Operação escolhida: Subtração'+ '<br>');
+        document.write('Resultado: ');
+        document.write(valor_primeiro - valor_segundo);
+    }
+
+    if(valor_operacao == '*'){
+        document.write('Primeiro valor: '+ valor_primeiro + '<br>');
+        document.write('Segundo valor: '+ valor_segundo + '<br>');
+        document.write('Operação escolhida: Multiplicação'+ '<br>');
+        document.write('Resultado: ');
+        document.write(valor_primeiro * valor_segundo);
+    }
+    if(valor_operacao == '/'){
+        document.write('Primeiro valor: '+ valor_primeiro + '<br>');
+        document.write('Segundo valor: '+ valor_segundo + '<br>');
+        document.write('Operação escolhida: Divisão'+ '<br>');
+        document.write('Resultado: ');
+        document.write(valor_primeiro / valor_segundo);
+    }
+    
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    
+</body>
+</html>

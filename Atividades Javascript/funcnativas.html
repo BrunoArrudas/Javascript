@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+
+    <script>
+
+        // propriedade length
+        document.write('Cristiano Maia'.length);
+        console.log('Cristiano Maia'.length);
+        console.log('Bruno Guilherme'. length);
+
+        // propriedade charAt
+        console.log('Cristiano Maia'.charAt(10));
+        console.log('Bruno Guilherme'.charAt(6));
+
+        // indexOf
+        let nome = 'Cristiano Maia';
+        document.write('<br>');
+        document.write(nome.indexOf('M'));
+
+        document.write('<br>');
+
+        // propriedade replace
+        document.write(nome.replace('Maia','Silva'));
+
+        document.write('<br>');
+
+        // propriedade substr(inicio, numero de caracteres)
+        document.write(nome.substr(0,4));
+
+        document.write('<br>');
+
+        // propriedade toUpperCaser
+        document.write(nome.toUpperCase());
+
+        document.write('<br>');
+
+        // propriedade toLowerCase
+        document.write(nome.toLowerCase());
+
+        document.write('<br>');
+
+        // propriedade trim
+        let texto = ' Aula  Javascript ';
+        document.write('=' + texto + '=<br>');
+        document.write('=' + texto.trim() + '= <br>');
+
+        document.write('<br>');
+
+        // Math.ceil
+        let numero = 10.35978;
+        document.write(numero + '<br>');
+        document.write(Math.ceil(numero) + '<br>');
+        
+        // Math.floor
+        document.write(Math.floor(numero) + '<br>');
+
+        //Arredondar de acordo com a regra matematica
+        document.write(Math.round(10.5) + '<br>');
+        document.write(Math.round(10.4) + '<br>');
+
+        // Numeros Aleatorios
+        let x = Math.random();
+        document.write('<br>' + x);
+
+        document.write('<br>');
+
+        // Faz com que um objeto de data seja criado e atribuido a uma variavel
+        let data = new Date();
+
+        // Retorna o dia da semana da data atual iniciando em 0
+        document.write('Dia semana: ' + data.getDay() + '<br>');
+
+        // Retorna o dia no mes da data atual
+        document.write('Dia no mes: ' + data.getDate() + '<br>');
+
+        // Retorna com o mes em numero iniciando por 0
+        document.write('Mes: ' + data.getMonth() + '<br>');
+        document.write('Mes: ' + (data.getMonth() +1) + '<br>');
+
+        // Retornando o ano completo
+        document.write('Ano: ' + data.getFullYear() + '<br>');
+
+        
+
+
+
+
+
+
+    </script>
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
