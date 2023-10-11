@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Atividade 27 - Calculadora Simples</title>
+
+    <script>
+
+    alert('Digite valores para soma e posteriormente escolha a operação');
+
+    let valor_numero1 = parseInt(prompt('Digite o primeiro valor:',''));
+    let valor_numero2 = parseInt(prompt('Digite o segundo valor:',''));
+    let valor_operacao = prompt('Digite a operação (soma, multiplicacao, divisao e subtracao)','');
+
+    let resultado;
+
+    switch(valor_operacao){
+
+        case 'soma':
+        resultado = valor_numero1 + valor_numero2
+        break
+
+        case 'subtracao':
+        resultado = valor_numero1 - valor_numero2
+        break
+
+        case 'divisao':
+        resultado = valor_numero1 / valor_numero2
+        break
+
+        case 'multiplicacao':
+        resultado = valor_numero1 * valor_numero2
+        break
+
+        default :
+
+        break
+    }
+
+    document.write('<br> Primeiro valor: '+ valor_numero1);
+    document.write('<br> Segundo valor: '+ valor_numero2);
+    document.write('<br> Operação Escolhida: '+ valor_operacao);
+    document.write('<br> Resultado: ' + resultado);
+    
+    </script>
+
+
+
+
+
+
+
+
+</head>
+<body>
+    
+</body>
+</html>

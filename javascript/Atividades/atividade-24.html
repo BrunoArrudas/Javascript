@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Meu Exemplo de Callback</title>
+   
+    
+    <button id="nvidia" onclick="mostrarImagem()">Gostaria de ver o logo da Nvidia?</button>
+    <button id="maiores" onclick="mostrarImagens()">Grandes empresas de tecnologia</button>
+    <button id="alterar" onclick="alterarCor()">Gostaria de alterar a Cor de fundo da pagina? </button>
+    <button id="voltar" onclick="voltarCor()">Gostaria de retornar a Cor Original?</button>
+
+    <script>
+
+    function mostrarImagem(){
+        document.write('<br><img src=imagens/Nvidia.png width=300>');
+    }
+
+    function mostrarImagens(){
+        document.write('<br><img src=imagens/Meta.jpg width=300>');
+        document.write('<br><img src=imagens/Oracle.png width=300>');
+        document.write('<br><img src=imagens/Nvidia.png width=300>');
+        document.write('<br><img src=imagens/ibm.png width=300>');
+    }
+
+    function alterarCor(){
+        document.bgColor ='red';
+    }
+
+    function voltarCor(){
+        document.bgColor = 'White'
+    }
+
+    </script>
+
+
+    <style>
+
+    #nvidia{
+        background-color: green;
+        border-radius: 80px;
+        color: aliceblue;
+    }
+    
+    #maiores{
+        background-color:darkorange;
+        color: white;
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+    }
+
+    #alterar{
+        background-color: chartreuse;
+        color: black;
+        width: 400px;
+        height: 80px;
+        border-radius: 80px;
+    }
+
+    #voltar{
+        background-color:blueviolet;
+        color: white;
+        width: 300px;
+        height: 40px;
+        border-radius: 50px;
+    }
+
+    </style>
+
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
