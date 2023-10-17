@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Tabuada</title>
+
+</head>
+<body>
+
+<style>
+
+#pcontainer{
+    
+    background-color: blanchedalmond;
+    height: 10px;
+}
+
+#container{
+
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+#containertabuada{
+
+    background-color: #176885;
+    color: white;
+    display: flex;
+    border-radius: 20px;
+    align-content: center;
+    margin-bottom: 50px;
+}
+
+#p2container{
+
+    background-color: blanchedalmond;
+    height: 300px;
+    margin-bottom: 120px;
+}
+
+#p3container{
+
+    background-color: #176885;
+    height: 150px;
+    width: 1600px;
+    margin-left: 120px;
+    border-radius: 50px;
+}
+
+</style>
+
+
+<div id="pcontainer"></div>
+
+<h2 id="container">Atividade JavaScript - Tabuada</h2>
+
+
+<div id="containertabuada">
+<script >
+
+for(y = 1; y <= 10; y++){
+
+        for(x = 1; x <= 10; x++){
+
+            document.write(y + ' x ' + x + ' = ' + (y * x) + '<br>')
+
+        }
+        document.write('<hr>')
+    }
+
+</script>
+</div>
+
+<div id="p2container" ></div>
+
+<div id="p3container"></div>
+    
+</body>
+</html>
